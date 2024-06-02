@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '@/components/Sidebar';
 
 const font = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Spotify-Clone",
-  description: "Listen to Music melody",
+  description: "Listen to Music",
 };
 
 export default function RootLayout({
